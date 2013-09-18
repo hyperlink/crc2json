@@ -1,12 +1,14 @@
 {
   "name": "crc2json",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Scan a directory of files and generates a CRC32 for each file and outputs them in JSON format.",
   "main": "crc2json.js",
-  "keywords": ["crc32"],
+  "keywords": [
+    "crc32"
+  ],
   "bin": "index.js",
   "bugs": {
-    "url" : "https://github.com/hyperlink/crc2json/issues"
+    "url": "https://github.com/hyperlink/crc2json/issues"
   },
   "repository": "https://github.com/hyperlink/crc2json.git",
   "author": "Xiaoxin Lu <javascript@yahoo.com>",

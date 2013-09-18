@@ -20,7 +20,7 @@ Get help for other flags
 
     npm install crc2json --save
 
-Example:
+Using callback function example:
 
 ```javascript
 
@@ -29,6 +29,22 @@ var crc2json = require('crc2json')
 crc2json(process.cwd(), function(map){
 	console.log(map)
 })
+```
+Using EventEmitter example:
+
+```javascript
+
+var EventEmitter = require('events').EventEmitter
+var event        = new EventEmitter
+
+event.on('crc', function(filename, crc) {
+ ...
+})
+
+event.on('complete', function(){ ... })
+
+crc2json(process.cwd(), event)
+
 ```
 
 ## License MIT ##
