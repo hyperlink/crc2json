@@ -15,9 +15,9 @@
   "license": "MIT",
   "dependencies": {
     "buffer-crc32": "~0.2.1",
-    "when": "~2.4.0",
-    "commander": "~2.0.0",
-    "graceful-fs": "~2.0.1",
-    "dive": "~0.3.0"
+    "when": "~3.7.7",
+    "commander": "~2.9.0",
+    "graceful-fs": "~4.1.11",
+    "dive": "~0.5.0"
   }
 }
